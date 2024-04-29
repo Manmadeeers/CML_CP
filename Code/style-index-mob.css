@@ -25,14 +25,15 @@ header form{
     /* flex: 1 1 20%; */
 }
 menu{
-    flex: 1 1 100%;
-    width: 100%;
+    display: none;
 }
 .galery{
     flex: 1 1 100%;
     width: 100%;
+    display: none;
 }
 .equipment-page{
     flex: 1 1 100%;
     width: 100%;
+    margin-top: 2%;
 }

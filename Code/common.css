@@ -1,3 +1,4 @@
+/* css file for common styles */
 body{
     color:#171A5B;
     font-family: sans-serif;
@@ -85,143 +86,24 @@ header .cart{
 header .cart:hover{
     border: 1px solid  #171A5B;
 }
+.path{
+    flex:1 1 100%;
+    margin-top: 0.5%;
+}
+.path a{
+    text-decoration: none;
+    color: #171A5B;
+    cursor: pointer;
+}
+.path a:hover{
+    text-decoration: underline;
+}
 menu{
     flex: 1 1 100%;
     width: 100%;
     /* border: 1px solid; */
 }
-menu .wear{
-    background-color: #F5F5F5;
-    height: 40px;
-    width: 33%;
-    margin-left: -1.2%;
-    border: 1px solid #171A5B;
-    border-radius: 5px;
-    cursor: pointer;
-}
-menu .shoe{
-    background-color: #F5F5F5;
-    height: 40px;
-    width: 33%;
-    border-radius: 5px;
-    border: 1px solid #171A5B;
-    cursor: pointer;
-}
-menu .equip{
-    background-color: #F5F5F5;
-    height: 40px;
-    width: 33%;
-    border-radius: 5px;
-    border: 1px solid #171A5B;
-    cursor: pointer;
-}
 
-.equipment-page{
-    width: 30%;
-    height: 500px;
-    border: 1px solid  #171A5B;
-    margin-right: 3%;
-    background-image: url("pics/eq_page.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.wear-page{
-    width: 30%;
-    height: 500px;
-    border: 1px solid  #171A5B;
-    margin-right: 3%;
-    background-image: url("pics/wear_page.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.shoe-page{
-    width: 30%;
-    height: 500px;
-    border: 1px solid  #171A5B;
-    background-image: url("pics/shoe_page.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.texts{
-    flex: 1 1 100%;
-    display: flex;
-    flex-flow: row wrap;
-}
-.texts a{
-    font-size: 25pt;
-    cursor: pointer;
-    text-decoration: none;
-    color: #171A5B;
-}
-.texts a:hover{
-    text-decoration: underline;
-}
-.texts img{
-    width: 3%;
-}
-.texts a:nth-child(1){
-    margin-left: 9%;
-}
-.texts a:nth-child(3){
-    margin-left: 20%;
-}
-.texts a:nth-child(5){
-    margin-left: 24%;
-}
-
-.advantages{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: space-between;
-    align-items: flex-start;
-    justify-content: center;
-    flex: 1 1 100%;
-    width: 100%;
-    margin-top: 2.5%;
-    border-top: 2px solid #171A5B;
-    border-bottom: 2px solid #171A5B;
-    padding-bottom: 1.5%;
-}
-.delivery{
-    flex:1 1 30%;
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 3%;
-}
-
-
-.delivery p{
-    margin-left: 2%;
-    margin-top: 5%;
-}
-.delivery span{
-    font-weight: bold;
-}
-.garant{
-    flex: 1 1 30%;
-    display: flex;
-    flex-flow: row wrap;
-}
-.garant p{
-    margin-left: 1%;
-    margin-top: 2.5%;
-}
-.garant span{
-    font-weight: bold;
-}
-.victory{
-    flex: 1 1 30%;
-    display: flex;
-    flex-flow: row wrap;
-}
-.victory p{
-    margin-left: 1%;
-    margin-top: 2.5%;
-}
-.victory span{
-    font-weight: bold;
-}
 footer{
     flex: 1 1 100%;
     margin-top: 2.5%;

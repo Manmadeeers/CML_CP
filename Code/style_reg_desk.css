@@ -85,142 +85,77 @@ header .cart{
 header .cart:hover{
     border: 1px solid  #171A5B;
 }
-menu{
-    flex: 1 1 100%;
-    width: 100%;
-    /* border: 1px solid; */
+.path{
+    flex:1 1 100%;
+    margin-top: 0.5%;
 }
-menu .wear{
-    background-color: #F5F5F5;
-    height: 40px;
-    width: 33%;
-    margin-left: -1.2%;
-    border: 1px solid #171A5B;
-    border-radius: 5px;
-    cursor: pointer;
-}
-menu .shoe{
-    background-color: #F5F5F5;
-    height: 40px;
-    width: 33%;
-    border-radius: 5px;
-    border: 1px solid #171A5B;
-    cursor: pointer;
-}
-menu .equip{
-    background-color: #F5F5F5;
-    height: 40px;
-    width: 33%;
-    border-radius: 5px;
-    border: 1px solid #171A5B;
-    cursor: pointer;
-}
-
-.equipment-page{
-    width: 30%;
-    height: 500px;
-    border: 1px solid  #171A5B;
-    margin-right: 3%;
-    background-image: url("pics/eq_page.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.wear-page{
-    width: 30%;
-    height: 500px;
-    border: 1px solid  #171A5B;
-    margin-right: 3%;
-    background-image: url("pics/wear_page.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.shoe-page{
-    width: 30%;
-    height: 500px;
-    border: 1px solid  #171A5B;
-    background-image: url("pics/shoe_page.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.texts{
-    flex: 1 1 100%;
-    display: flex;
-    flex-flow: row wrap;
-}
-.texts a{
-    font-size: 25pt;
-    cursor: pointer;
+.path a{
     text-decoration: none;
     color: #171A5B;
+    cursor: pointer;
 }
-.texts a:hover{
+.path a:hover{
     text-decoration: underline;
 }
-.texts img{
-    width: 3%;
-}
-.texts a:nth-child(1){
-    margin-left: 9%;
-}
-.texts a:nth-child(3){
-    margin-left: 20%;
-}
-.texts a:nth-child(5){
-    margin-left: 24%;
-}
-
-.advantages{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: space-between;
-    align-items: flex-start;
-    justify-content: center;
+.registration{
     flex: 1 1 100%;
-    width: 100%;
-    margin-top: 2.5%;
-    border-top: 2px solid #171A5B;
-    border-bottom: 2px solid #171A5B;
-    padding-bottom: 1.5%;
 }
-.delivery{
-    flex:1 1 30%;
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 3%;
+.registration form{
+    border: 1px solid #171A5B;
+    background-color: #e4e0e0;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
 }
-
-
-.delivery p{
-    margin-left: 2%;
+.registration form label{
+    display: block;
+    margin-bottom: 5%;
+}
+.registration form label input{
+    width: 35%;
+    height: 40px;
+    background-color: rgba(23, 26, 91, 0.2);
+    border-radius: 5px;
+    border: none;
+}
+.registration label:first-child{
     margin-top: 5%;
 }
-.delivery span{
+.registration form label p{
+    display: inline;
+    margin-left: 30%;
+    text-align: center;
+}
+.registration form label #caption{
     font-weight: bold;
+    text-align: center;
 }
-.garant{
-    flex: 1 1 30%;
-    display: flex;
-    flex-flow: row wrap;
+.registration form label #name{
+    margin-right: 9.7%;
 }
-.garant p{
-    margin-left: 1%;
-    margin-top: 2.5%;
+.registration form label #surename{
+    margin-right: 4.7%;
 }
-.garant span{
-    font-weight: bold;
+.registration form label #mail{
+    margin-right: 3.7%;
 }
-.victory{
-    flex: 1 1 30%;
-    display: flex;
-    flex-flow: row wrap;
+.registration form label #pass{
+    margin-right: 2%;
 }
-.victory p{
-    margin-left: 1%;
-    margin-top: 2.5%;
-}
-.victory span{
-    font-weight: bold;
+.registration form button{
+    margin-left: 35%;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(138, 141, 209, 0.5);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    cursor: pointer;
 }
 footer{
     flex: 1 1 100%;
@@ -256,17 +191,7 @@ footer .left-foot p:nth-child(6){
     margin-top: 5%;
 }
 footer .left-foot button{
-    margin-left: 10%;
-    width: 250px;
-    height: 50px;
-    background-color: rgba(181, 183, 234, 0.5);
-    border-radius: 10px;
-    border: none;
-    color: white;
-    font-size: 20px;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    cursor: pointer;
+    display: none;
 }
 
 footer .right-foot{

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <good1>
+        <name>Футболка Mizuno синяя</name>
+        <price>70BYN</price>
+    </good1>
+    <good2>
+        <name>Лонгслив Mizuno чёрный</name>
+        <price>90BYN</price>
+    </good2>
+    <good3>
+        <name>Футболка Mizuno чёрная</name>
+        <price>70BYN</price>
+    </good3>
+    <good4>
+        <name>Лонгслив Nike серый</name>
+        <price>100BYN</price>
+    </good4>
+    <good5>
+        <name> Худи Nike синяя</name>
+        <price>120BYN</price>
+    </good5>
+    <good6>
+        <name>Худи Nike серая</name>
+        <price>120BYN</price>
+    </good6>
+</data>
