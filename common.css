@@ -327,3 +327,7 @@ footer svg {
         width: 90%;
     }
 }
+/* for tablets */
+@media (min-width:481px) and (max-width:1000px){
+    
+}
