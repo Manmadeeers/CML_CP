@@ -12,8 +12,11 @@ function shoelink() {
 function equiplink() {
      window.location.href = "equipment.html";
 }
+function goodlink() {
+     window.location.href = "error.html";
+}
 
-document.getElementById('menu-button').addEventListener('click', function() {
+document.getElementById('menu-button')[0].addEventListener('click', function() {
      var menu = document.getElementById('overlay');
      
     });

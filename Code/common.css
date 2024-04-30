@@ -2,6 +2,7 @@
 body {
     color: #171A5B;
     font-family: sans-serif;
+    /* margin: 0; */
 }
 
 .container {
@@ -89,10 +90,11 @@ header svg {
     border-radius: 5px;
     border: 1px solid;
     background-color: rgba(23, 26, 91, 0.2);
-    background-image: url(pics/lupa-removebg-preview.png);
+    background-image: url(pics/search-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: 38px;
     background-position: 100%;
+    cursor: pointer;
 }
 
 header .profile {
@@ -102,9 +104,9 @@ header .profile {
     margin-left: 10%;
     background-color: white;
     margin-top: 0.6%;
-    background-image: url(pics/profile.jpg);
+    background-image: url(pics/profile-svgrepo-com.svg);
     background-repeat: no-repeat;
-    background-size: 41px;
+    background-size: 100%;
     cursor: pointer;
 }
 
@@ -120,14 +122,15 @@ header .cart {
     margin-left: 10%;
     background-color: white;
     margin-top: 0.6%;
-    background-image: url(pics/cart.jpg);
+    background-image: url(pics/cart-large-minimalistic-svgrepo-com.svg);
     background-repeat: no-repeat;
-    background-size: 41px;
+    background-size: 100%;
     cursor: pointer;
 }
 
 header .cart:hover {
     border: 1px solid #171A5B;
+    /* border-radius: 20px; */
 }
 
 .path {
@@ -156,6 +159,7 @@ footer {
     margin-top: 2.5%;
     display: flex;
     flex-flow: row wrap;
+    margin-bottom: 0;
 }
 
 footer .left-foot {
@@ -271,7 +275,11 @@ footer svg {
     header button {
         display: none;
     }
-
+    header .search{
+        flex: 1 1 100%;
+        margin-left: 0;
+        margin-top: 2%;
+    }
     header svg {
         flex: 1 1 80%;
         margin-right: 0;

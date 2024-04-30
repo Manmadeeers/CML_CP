@@ -62,36 +62,13 @@
     cursor: pointer;
 }
 @media (max-width:480px){
-    body{
-        padding: 0;
-        margin: 2%;
-    }
-    .container{
-        flex-flow: column wrap;
-    }
-    header{
-        flex: 1 1 100%;
-    }
-    header svg{
-        flex: 1 1 100%;
-        width: auto;
-        margin-right: 0;
-        margin-bottom: 2%;
-        display: none;
-    }
-    header .search{
-        flex: 1 1 100%;
-        margin: 0;
-        margin-top: 5%;
-    }
-    header button{
-        display: none;
-    }
     .registration{
         flex:1 1 100%;
+        width: 100%;
     }
     .registration form{
         width: 100%;
+
     }
     .registration form label p{
         margin-left: 10%;

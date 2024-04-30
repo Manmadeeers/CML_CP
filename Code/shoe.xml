@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-shoe>
+    <shoe1>
+        <name>Adidas CrazyFlight</name>
+        <price>500BYN</price>
+    </shoe1>
+    <shoe2>
+        <name>Adidas Stabil</name>
+        <price>500BYN</price>
+    </shoe2>
+    <shoe3>
+        <name>Nike Zoom Hyperace 2</name>
+        <price>550BYN</price>
+    </shoe3>
+    <shoe4>
+        <name>Nike React Hyperset</name>
+        <price>550BYN</price>
+    </shoe4>
+    <shoe5>
+        <name>Asics Gel-Rocket 11</name>
+        <price>400BYN</price>
+    </shoe5>
+    <shoe6>
+        <name>ASICS Netburner FF MT 3</name>
+        <price>420BYN</price>
+    </shoe6>
+    <shoe7>
+        <name>Under Armour HOVR Block City</name>
+        <price>400BYN</price>
+    </shoe7>
+    <shoe8>
+        <name>Mizuno Wave Momentum 2</name>
+        <price>390BYN</price>
+    </shoe8>
+    <shoe9>
+        <name>Mizuno Wave Lightning Z6</name>
+        <price>420BYN</price>
+    </shoe9>
+</data-shoe>
