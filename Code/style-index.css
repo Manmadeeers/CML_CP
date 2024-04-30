@@ -145,7 +145,9 @@ menu .equip{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
+.mob-text{
+    display: none;
+}
 .texts{
     flex: 1 1 100%;
     display: flex;
@@ -355,6 +357,20 @@ footer svg{
     .shoe-page{
         width: 100%;
         margin-bottom: 5%;
+    }
+    .mob-text{
+        display: block;
+        flex: 1 1 100%;
+        width: 100%;
+        margin-bottom: 10%;
+        margin-top: 0;
+        font-size: 25pt;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .mob-text:hover{
+        text-decoration: underline;
     }
     .texts{
         display: none;
