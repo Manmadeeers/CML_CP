@@ -1,16 +1,18 @@
 /* css file for common styles */
-body{
-    color:#171A5B;
+body {
+    color: #171A5B;
     font-family: sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
     align-items: flex-start;
     justify-content: center;
 }
-header{
+
+header {
     border-bottom: 2px solid #171A5B;
     display: flex;
     flex-flow: row wrap;
@@ -21,7 +23,42 @@ header{
     padding-bottom: 20px;
     /* height: 30px; */
 }
-header svg{
+
+header .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(39, 18, 18);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.ham-content {
+    display: block;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    width: 40%;
+}
+
+header .ham-menu {
+    width: 50px;
+    height: 50px;
+    display: none;
+    background-image: url(pics/icons8-menu.svg);
+    border: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+header svg {
     height: 50px;
     margin-left: -45%;
     margin-right: -20%;
@@ -29,7 +66,8 @@ header svg{
     margin-top: 0.2%;
     /* border: 1px solid; */
 }
-.search{
+
+.search {
     width: 35%;
     height: 40px;
     background-color: rgba(23, 26, 91, 0.2);
@@ -39,11 +77,12 @@ header svg{
     /* align-items:end; */
 }
 
-.search form{
+.search form {
     width: 100%;
     height: 40px;
 }
-.search form input{
+
+.search form input {
     z-index: 1;
     width: 100%;
     height: 100%;
@@ -55,7 +94,8 @@ header svg{
     background-size: 38px;
     background-position: 100%;
 }
-header .profile{
+
+header .profile {
     border: none;
     width: 45px;
     height: 45px;
@@ -67,11 +107,13 @@ header .profile{
     background-size: 41px;
     cursor: pointer;
 }
-header .profile:hover{
-    border: 1px solid  #171A5B;
+
+header .profile:hover {
+    border: 1px solid #171A5B;
     border-radius: 50px;
 }
-header .cart{
+
+header .cart {
     border: none;
     width: 45px;
     height: 45px;
@@ -83,61 +125,73 @@ header .cart{
     background-size: 41px;
     cursor: pointer;
 }
-header .cart:hover{
-    border: 1px solid  #171A5B;
+
+header .cart:hover {
+    border: 1px solid #171A5B;
 }
-.path{
-    flex:1 1 100%;
+
+.path {
+    flex: 1 1 100%;
     margin-top: 0.5%;
 }
-.path a{
+
+.path a {
     text-decoration: none;
     color: #171A5B;
     cursor: pointer;
 }
-.path a:hover{
+
+.path a:hover {
     text-decoration: underline;
 }
-menu{
+
+menu {
     flex: 1 1 100%;
     width: 100%;
     /* border: 1px solid; */
 }
 
-footer{
+footer {
     flex: 1 1 100%;
     margin-top: 2.5%;
     display: flex;
     flex-flow: row wrap;
 }
-footer .left-foot{
+
+footer .left-foot {
     flex: 1 1 30%;
     background-color: #171A5B;
     color: white;
     font-size: 10pt;
 }
-footer .left-foot p:nth-child(2){
+
+footer .left-foot p:nth-child(2) {
     /* text-align: center; */
     margin-left: 10%;
     margin-bottom: 5%;
 }
-footer .left-foot img:nth-child(3){
-    margin-left:10% ;
+
+footer .left-foot img:nth-child(3) {
+    margin-left: 10%;
     margin-right: 10%;
     cursor: pointer;
 }
-footer .left-foot img:nth-child(4){
+
+footer .left-foot img:nth-child(4) {
     margin-right: 10%;
     cursor: pointer;
 }
-footer .left-foot img:nth-child(5){
+
+footer .left-foot img:nth-child(5) {
     cursor: pointer;
 }
-footer .left-foot p:nth-child(6){
+
+footer .left-foot p:nth-child(6) {
     margin-left: 10%;
     margin-top: 5%;
 }
-footer .left-foot button{
+
+footer .left-foot button {
     margin-left: 10%;
     width: 250px;
     height: 50px;
@@ -151,7 +205,7 @@ footer .left-foot button{
     cursor: pointer;
 }
 
-footer .right-foot{
+footer .right-foot {
     flex: 1 1 60%;
     display: flex;
     flex-flow: row wrap;
@@ -159,40 +213,109 @@ footer .right-foot{
     background-color: #D9D9D9;
     color: black;
 }
-footer .right-foot .info{
+
+footer .right-foot .info {
     height: 90%;
-    flex:1 1 40%;
+    flex: 1 1 40%;
 }
-footer .right-foot .info p{
+
+footer .right-foot .info p {
     cursor: pointer;
     text-align: center;
     text-decoration: underline;
 }
-footer .right-foot .info p:nth-child(1){
+
+footer .right-foot .info p:nth-child(1) {
     margin-bottom: 7%;
-    cursor:default;
+    cursor: default;
 }
-footer .right-foot .important{
+
+footer .right-foot .important {
     height: 90%;
     flex: 1 1 40%;
 }
-footer .right-foot .important p{
+
+footer .right-foot .important p {
     text-align: center;
     text-decoration: underline;
     cursor: pointer;
 }
 
-footer .right-foot .important p:nth-child(1){
+footer .right-foot .important p:nth-child(1) {
     margin-bottom: 7%;
     cursor: default;
 }
-footer .right-foot span{
+
+footer .right-foot span {
     flex: 1 1 100%;
     text-align: center;
 }
-footer svg{
+
+footer svg {
     width: 50%;
     margin-top: 1%;
     margin-left: 1%;
-    display: none;
+}
+
+/* style for mobile devices */
+@media (max-width:480px) {
+    body {
+        padding: 0;
+        margin: 2%;
+    }
+
+    .container {
+        flex-flow: column wrap;
+    }
+
+    header button {
+        display: none;
+    }
+
+    header svg {
+        flex: 1 1 80%;
+        margin-right: 0;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+
+    header .ham-menu {
+        display: block;
+        flex: 1 1 10%;
+    }
+
+    footer .left-foot {
+        flex: 1 1 50%;
+    }
+
+    footer .right-foot {
+        flex: 1 1 30%;
+        flex-flow: column wrap;
+        height: 100%;
+    }
+
+    footer .left-foot img:nth-child(3) {
+        margin-left: 5%;
+    }
+
+    footer .left-foot p:nth-child(6) {
+        margin-top: 10%;
+    }
+
+    footer .left-foot img:nth-child(4) {
+        margin-right: 5%;
+    }
+
+    footer .left-foot button {
+        width: 150px;
+        font-size: 16px;
+        margin-bottom: 0;
+        display: inline;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+
+    footer svg {
+        width: 90%;
+    }
 }
