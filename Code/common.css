@@ -23,7 +23,7 @@ header{
 }
 header svg{
     height: 50px;
-    /* margin-left: -45%; */
+    margin-left: -45%;
     margin-right: -20%;
     margin-left: -5%;
     margin-top: 0.2%;
@@ -195,7 +195,4 @@ footer svg{
     margin-top: 1%;
     margin-left: 1%;
     display: none;
-}
-footer svg g text{
-    color: white;
 }

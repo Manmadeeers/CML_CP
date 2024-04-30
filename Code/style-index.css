@@ -20,6 +20,9 @@ header{
     padding-bottom: 20px;
     /* height: 30px; */
 }
+header .ham-menu{
+    display: none;
+}
 header svg{
     height: 50px;
     /* margin-left: -45%; */
@@ -314,6 +317,69 @@ footer svg{
     margin-left: 1%;
     display: none;
 }
-footer svg g text{
-    color: white;
+/* media for mobile */
+@media screen and (max-width: 480px) {
+    body{
+        padding: 0;
+        margin: 2%;
+    }
+    .container{
+        flex-flow: column wrap;
+    }
+    header button{
+        display: none;
+    }
+    header svg{
+        flex: 1 1 100%;
+        margin-right: 0;
+        margin-bottom: 2%;
+    }
+    header .search{
+        flex: 1 1 100%;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+    menu{
+        display: none; 
+    }
+    .equipment-page{
+        /* flex: 1 1 100%; */
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .wear-page{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .shoe-page{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .texts{
+        display: none;
+    }
+    .advantages .delivery{
+        flex: 1 1 100%;
+    }
+    .advantages .garant{
+        flex: 1 1 100%;
+    }
+    .advantages .victory{
+        flex: 1 1 100%;
+    }
+    footer .left-foot p:nth-child(2){
+        margin-left: 32%;
+        /* text-align: center; */
+    }
+    footer .left-foot img:nth-child(3){
+        margin-left: 17%;
+    }
+    footer .left-foot p:nth-child(6){
+        margin-left: 15%;
+    }
+    footer .left-foot button{
+        margin-left: 16%;
+    }
+
 }

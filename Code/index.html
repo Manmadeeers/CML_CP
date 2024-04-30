@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_index_desk.css">
-    <link rel="stylesheet" href="style-index-mob.css" media="(max-width:480px)">
+    <link rel="stylesheet" href="style-index.css">
+    <!-- <link rel="stylesheet" href="style-index-mob.css" media="(max-width:480px)"> -->
     <title>Voleyshop.com</title>
 </head>
 
@@ -14,6 +14,9 @@
     <div class="container">
         <header>
             <!-- <img src="pics/logo2-1.svg" class="logo"> -->
+            <button class="ham-menu">
+                
+            </button>
             <svg id="_Слой_1" data-name=" Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 553.04 94.46">
                 <defs>
                     <style>
@@ -72,30 +75,23 @@
                     <input type="search" placeholder="Search...">
                 </form>
             </div>
-            <button class="profile"></button>
+            <button class="profile" onclick="regbutton()"></button>
             <button class="cart"></button>
         </header>
         <menu>
-            <button class="wear">Экипировка</button>
-            <button class="shoe">Одежда</button>
-            <button class="equip">Обувь</button>
+            <button class="wear" onclick="wearlink()">Одежда</button>
+            <button class="shoe" onclick="shoelink()">Обувь</button>
+            <button class="equip" onclick="equiplink()">Экипировка</button>
         </menu>
-        <!-- <div class="galery">
-            <div class="image-change">
-                <img src="pics/galery_img1.jpg">
-                <img src="pics/galery_2.jpg">
-                <img src="pics/galery_3.jpg">
-            </div>
-        </div> -->
         <div class="equipment-page"></div>
         <div class="wear-page"></div>
         <div class="shoe-page"></div>
         <div class="texts">
-            <a href="">Экипировка</a>
+            <a onclick="equiplink() ">Экипировка</a>
             <img src="pics/arrow.jpg">
             <a id="wear_go" onclick="wearlink()">Одежда</a>
             <img src="pics/arrow.jpg">
-            <a>Обувь</a>
+            <a onclick="shoelink()">Обувь</a>
             <img src="pics/arrow.jpg">
         </div>
         <div class="advantages">

@@ -24,4 +24,40 @@
         <name>Худи Nike серая</name>
         <price>120BYN</price>
     </good6>
+    <good7>
+        <name>Лонгслив Adidas чёрный</name>
+        <price>90BYN</price>
+    </good7>
+    <good8>
+        <name>Худи Adidas синяя</name>
+        <price>120BYN</price>
+    </good8>
+    <good9>
+        <name>Футболка Adidas чёрная</name>
+        <price>70BYN</price>
+    </good9>
+    <good10>
+        <name>Футболка Asics синяя</name>
+        <price>70BYN</price>
+    </good10>
+    <good11>
+        <name>Худи Asics чёрная</name>
+        <price>120BYN</price>
+    </good11>
+    <good12>
+        <name>Лонгслив Asics синий</name>
+        <price>90BYN</price>
+    </good12>
+    <good13>
+        <name>Носки Asics белые</name>
+        <price>20BYN</price>
+    </good13>
+    <good14>
+        <name>Носки Nike белые</name>
+        <price>20BYN</price>
+    </good14>
+    <good15>
+        <name>Носки Mizuno белые</name>
+        <price>20BYN</price>
+    </good15>
 </data>

@@ -1,0 +1,117 @@
+.ham-menu{
+    display: none;
+}
+.registration{
+    flex: 1 1 100%;
+}
+.registration form{
+    border: 1px solid #171A5B;
+    background-color: #e4e0e0;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.registration form label{
+    display: block;
+    margin-bottom: 5%;
+}
+.registration form label input{
+    width: 35%;
+    height: 40px;
+    background-color: rgba(23, 26, 91, 0.2);
+    border-radius: 5px;
+    border: none;
+}
+.registration label:first-child{
+    margin-top: 5%;
+}
+.registration form label p{
+    display: inline;
+    margin-left: 30%;
+    text-align: center;
+}
+.registration form label #caption{
+    font-weight: bold;
+    text-align: center;
+}
+.registration form label #name{
+    margin-right: 9.7%;
+}
+.registration form label #surename{
+    margin-right: 4.7%;
+}
+.registration form label #mail{
+    margin-right: 3.7%;
+}
+.registration form label #pass{
+    margin-right: 2%;
+}
+.registration form button{
+    margin-left: 35%;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(138, 141, 209, 0.5);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+@media (max-width:480px){
+    body{
+        padding: 0;
+        margin: 2%;
+    }
+    .container{
+        flex-flow: column wrap;
+    }
+    header svg{
+        flex: 1 1 100%;
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 2%;
+        display: none;
+    }
+    header .search{
+        flex: 1 1 100%;
+        margin: 0;
+        margin-top: 5%;
+    }
+    header button{
+        display: none;
+    }
+    .registration{
+        flex:1 1 100%;
+    }
+    .registration form{
+        width: 100%;
+    }
+    .registration form label p{
+        margin-left: 10%;
+    }
+    .registration form label #caption{
+        margin-left: 12%;
+    }
+    .registration form label #name{
+        margin-right: 20%;
+    }
+    .registration form label #surename{
+        margin-right: 10.7%;
+    }
+    .registration form label #mail{
+        margin-right: 8.5%;
+    }
+    .registration form label #pass{
+        margin-right: 5%;
+    }
+    .registration form button{
+        margin-left: 15%;
+    }
+    footer{
+        flex: 1 1 100%;
+    }
+}
