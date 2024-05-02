@@ -18,8 +18,8 @@
                 <ul>
                     <li onclick="sells(`equip`)">Экипировка</li>
                     <li onclick="sells(`data`)">Одежда</li>
-                    <li onclick="">Обувь</li>
-                    <li>Регистрация</li>
+                    <li onclick="sells(`shoe`)">Обувь</li>
+                    <li onclick="regbutton()">Регистрация</li>
                     <li>Контакты</li>
                 </ul>
             </nav>
@@ -89,12 +89,14 @@
         </div>
         <menu>
             <button class="wear" onclick="sells(`data`)">Одежда</button>
-            <button class="shoe" onclick="">Обувь</button>
-            <button class="equip" onclick="">Экипировка</button>
+            <button class="shoe" onclick="sells(`shoe`)">Обувь</button>
+            <button class="equip" onclick="sells(`equip`)">Экипировка</button>
         </menu>
+        <!-- div where all the content is displayed(depending on a chosen type) -->
         <div class="goods" id="goods">
 
         </div>
+        <!-- end -->
         <footer>
             <div class="left-foot">
                 <svg id="_Слой_1" data-name=" Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 553.04 94.46">
