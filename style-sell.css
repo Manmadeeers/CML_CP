@@ -24,6 +24,10 @@ menu .equip{
     border: 1px solid #171A5B;
     cursor: pointer;
 }
+menu button:hover{
+    background-color: #171A5B;
+    color: white;
+}
 .goods{
     flex: 1 1 100%;
     /* border: 1px solid; */
