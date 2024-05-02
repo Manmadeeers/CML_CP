@@ -1,74 +1,67 @@
-/* css file for common styles */
-body {
-    color: #171A5B;
+@mixin border{
+    border: 1px solid #171A5B;
+}
+// variables
+$color:#171A5B;
+$display:flex;
+$flow:row wrap;
+$full-width:100%;
+$cursor:pointer;
+$flow-mob:column wrap;
+// 
+body{
+    color: $color;
     font-family: sans-serif;
-    /* margin: 0; */
 }
-
-.container {
-    display: flex;
+.container{
+    display: $display;
     flex-flow: row wrap;
     align-content: space-between;
     align-items: flex-start;
     justify-content: center;
 }
-
-header {
-    border-bottom: 2px solid #171A5B;
-    display: flex;
-    flex-flow: row wrap;
+header{
+    border-bottom: 2px solid $color;
+    display: $display;
+    flex-flow: $flow;
     align-content: space-between;
     align-items: flex-start;
     justify-content: center;
-    flex: 1 1 100%;
+    flex: 1 1 $full-width;
     padding-bottom: 20px;
-    /* height: 30px; */
 }
-
-.mobile-menu{
-    display: none;
-}
-.menu-button{
-    display: none;
-}
-header svg {
+header svg{
     height: 50px;
     margin-left: -45%;
     margin-right: -20%;
     margin-left: -5%;
     margin-top: 0.2%;
-    /* border: 1px solid; */
 }
-
-.search {
+.search{
     width: 35%;
     height: 40px;
     background-color: rgba(23, 26, 91, 0.2);
     border-radius: 5px;
     margin-left: 35%;
     margin-top: 0.6%;
-    /* align-items:end; */
 }
-
 .search form {
-    width: 100%;
+    width: $full-width;
     height: 40px;
 }
-
 .search form input {
     z-index: 1;
-    width: 100%;
-    height: 100%;
+    width: $full-width;
+    height: $full-width;
     border-radius: 5px;
-    border: 1px solid;
+    @include border();
     background-color: rgba(23, 26, 91, 0.2);
     background-image: url(pics/search-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: 38px;
     background-position: 100%;
-    cursor: pointer;
+    cursor: $cursor;
 }
-
 header .profile {
     border: none;
     width: 45px;
@@ -79,14 +72,12 @@ header .profile {
     background-image: url(pics/profile-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    cursor: pointer;
+    cursor: $cursor;
 }
-
 header .profile:hover {
-    border: 1px solid #171A5B;
+    @include border();
     border-radius: 50px;
 }
-
 header .cart {
     border: none;
     width: 45px;
@@ -96,77 +87,61 @@ header .cart {
     margin-top: 0.6%;
     background-image: url(pics/cart-large-minimalistic-svgrepo-com.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    cursor: pointer;
+    background-size: $full-width;
+    cursor: $cursor;
 }
-
 header .cart:hover {
-    border: 1px solid #171A5B;
-    /* border-radius: 20px; */
+    @include border();
 }
-
 .path {
-    flex: 1 1 100%;
+    flex: 1 1 $full-width;
     margin-top: 0.5%;
 }
-
 .path a {
     text-decoration: none;
-    color: #171A5B;
-    cursor: pointer;
+    color: $color;
+    cursor: $cursor;
 }
-
 .path a:hover {
     text-decoration: underline;
 }
-
 menu {
-    flex: 1 1 100%;
-    width: 100%;
-    /* border: 1px solid; */
+    flex: 1 1 $full-width;
+    width: $full-width;
 }
-
 footer {
-    flex: 1 1 100%;
+    flex: 1 1 $full-width;
     margin-top: 2.5%;
-    display: flex;
-    flex-flow: row wrap;
+    display: $display;
+    flex-flow: $flow;
     margin-bottom: 0;
 }
-
 footer .left-foot {
     flex: 1 1 30%;
-    background-color: #171A5B;
+    background-color: $color;
     color: white;
     font-size: 10pt;
 }
-
 footer .left-foot p:nth-child(2) {
-    /* text-align: center; */
     margin-left: 10%;
     margin-bottom: 5%;
 }
-
 footer .left-foot img:nth-child(3) {
     margin-left: 10%;
     margin-right: 10%;
-    cursor: pointer;
+    cursor: $cursor;
 }
-
 footer .left-foot img:nth-child(4) {
     margin-right: 10%;
-    cursor: pointer;
+    cursor: $cursor;
 }
-
 footer .left-foot img:nth-child(5) {
-    cursor: pointer;
+    cursor: $cursor;
 }
-
 footer .left-foot p:nth-child(6) {
     margin-left: 10%;
     margin-top: 5%;
 }
-
 footer .left-foot button {
     margin-left: 10%;
     width: 250px;
@@ -178,62 +153,50 @@ footer .left-foot button {
     font-size: 20px;
     margin-bottom: 2%;
     margin-top: 2%;
-    cursor: pointer;
+    cursor: $cursor;
 }
-
 footer .right-foot {
     flex: 1 1 60%;
-    display: flex;
-    flex-flow: row wrap;
-    /* border: 1px solid; */
+    display: $display;
+    flex-flow: $flow;
     background-color: #D9D9D9;
     color: black;
 }
-
 footer .right-foot .info {
     height: 90%;
     flex: 1 1 40%;
 }
-
 footer .right-foot .info p {
-    cursor: pointer;
+    cursor: $cursor;
     text-align: center;
     text-decoration: underline;
 }
-
 footer .right-foot .info p:nth-child(1) {
     margin-bottom: 7%;
     cursor: default;
 }
-
 footer .right-foot .important {
     height: 90%;
     flex: 1 1 40%;
 }
-
 footer .right-foot .important p {
     text-align: center;
     text-decoration: underline;
-    cursor: pointer;
+    cursor: $cursor;
 }
-
 footer .right-foot .important p:nth-child(1) {
     margin-bottom: 7%;
     cursor: default;
 }
-
 footer .right-foot span {
-    flex: 1 1 100%;
+    flex: 1 1 $full-width;
     text-align: center;
 }
-
 footer svg {
     width: 50%;
     margin-top: 1%;
     margin-left: 1%;
 }
-
-/* style for mobile devices */
 @media (max-width:480px) {
     body {
         padding: 0;
@@ -241,91 +204,14 @@ footer svg {
     }
 
     .container {
-        flex-flow: column wrap;
-    }
-    
-    .mobile-menu{
-        display: flex;
-        flex-flow: column wrap;
-        position: fixed;
-        top: 0;
-        left: 0; 
-        width: 250px;
-        height: 100%; 
-        background-color: white;
-        overflow-x: hidden;
-        transition: 0.3s ease-in-out; 
-        padding: 0;
-        text-align: left;
-        transform: translateY(-100%);
-    }
-    .mobile-menu ul{
-        display: flex;
-        flex-flow: row wrap;
-        margin-top: 50px;
-        margin-left: 0;
-        margin-right: 15%;
-    }
-    .mobile-menu ul li{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex: 1 1 100%;
-        list-style-type: none;
-        height: 30px;
-        border: 1px solid #171A5B;
-        margin-bottom: 5%;
-        cursor: pointer;
-    }
-    .mobile-menu ul li:hover{
-        color: white;
-        background-color: #171A5B;
-    }
-    
-     .open{
-        /* display: block; */
-        transform: translateY(0);
-    }
-    .menu-button{
-        display: block;
-        height: 40px;
-        width: 40px;
-        margin-top: 1.5%;
-        margin-left: 2%;
-        border: none;
-        background-color: white;
-        background-image: url(pics/icons8-menu.svg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        cursor: pointer;
-        padding: 10px;
-    }
-    .menu-button:hover{
-        border: 1px solid #171A5B;
-    }
-    .mobile-menu .close-menu{
-        display: block;
-        /* flex: 1 1 100%; */
-        height: 40px;
-        width: 40px;
-        background-image: url("pics/cross-svgrepo-com.svg");
-        background-repeat: no-repeat;
-        background-color: white;
-        border: none;
-        background-size: 100%;
-        cursor: pointer;
-        margin-left: 2%;
-        margin-top: 2%;
-    }
-    .mobile-menu .close-menu:hover{
-        border: 1px solid #171A5B;
+        flex-flow: $flow-mob;
     }
 
     header button {
         display: none;
     }
     header .search{
-        flex: 1 1 100%;
+        flex: 1 1 $full-width;
         margin-left: 0;
         margin-top: 2%;
     }
@@ -336,13 +222,18 @@ footer svg {
         margin-left: 2%;
     }
 
+    header .ham-menu {
+        display: block;
+        flex: 1 1 10%;
+    }
+
     footer .left-foot {
         flex: 1 1 50%;
     }
 
     footer .right-foot {
         flex: 1 1 30%;
-        flex-flow: column wrap;
+        flex-flow: $flow-mob;
         height: 100%;
     }
 

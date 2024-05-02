@@ -1,6 +1,6 @@
 function regbutton() {
-    window.location.href = "registration.html";
-   }
+     window.location.href = "registration.html";
+}
 
 function wearlink() {
      window.location.href = "wear.html";
@@ -16,7 +16,9 @@ function goodlink() {
      window.location.href = "error.html";
 }
 
-document.getElementById('menu-button')[0].addEventListener('click', function() {
-     var menu = document.getElementById('overlay');
-     
-    });
+document.getElementById('menu-button').addEventListener('click', function () {
+     document.getElementById('mobile-menu').classList.toggle('open');
+});
+document.getElementById('close-menu').addEventListener('click',function(){
+     document.getElementById('mobile-menu').classList.remove('open');
+})
