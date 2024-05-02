@@ -40,7 +40,7 @@ menu .equip{
     height: 500px;
     border: 1px solid  #171A5B;
     margin-right: 3%;
-    background-image: url("pics/wear_page.jpg");
+    background-image: url("wear/wear_page.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -48,7 +48,7 @@ menu .equip{
     width: 30%;
     height: 500px;
     border: 1px solid  #171A5B;
-    background-image: url("pics/shoe_page.jpg");
+    background-image: url("shoe/shoe_page.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }

@@ -239,7 +239,9 @@ footer svg {
         padding: 0;
         margin: 2%;
     }
-
+    menu{
+        display: none;
+    }
     .container {
         flex-flow: column wrap;
     }
@@ -320,7 +322,10 @@ footer svg {
     .mobile-menu .close-menu:hover{
         border: 1px solid #171A5B;
     }
-
+    header{
+        flex: 1 1 100%;
+        width: 100%;
+    }
     header button {
         display: none;
     }

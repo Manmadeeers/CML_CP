@@ -1,7 +1,4 @@
 /* specified styles for wear page */
-.ham-menu{
-    display: none;
-}
 menu .wear{
     background-color: #171A5B;
     height: 40px;
@@ -70,32 +67,6 @@ menu .equip{
     text-align: center;
 }
 @media (max-width:480px){
-    body{
-        padding: 0;
-        margin: 2%;
-    }
-    .container{
-        flex-flow:column wrap;
-    }
-    header{
-        flex: 1 1 100%;
-        width: 100%;
-    }
-    header svg{
-        margin-right: 0;
-        flex: 1 1 100%;
-        margin-bottom: 2%;
-    }
-    header button{
-        display: none;
-    }
-    header .search{
-        flex: 1 1 100%;
-        margin-left: 0;
-    }
-    menu{
-        display: none;
-    }
     .path{
         margin-bottom: 5%;
     }
