@@ -66,3 +66,22 @@ menu button:hover{
     height: 100%;
     border: 1px solid #171A5B;
 }
+@media (max-width:480px){
+    .path{
+        margin-bottom: 5%;
+    }
+    .goods{
+        flex: 1 1 100%;
+        flex-flow: column wrap;
+        border: none;
+    }
+    .goods div{
+        flex: 1 1 100%;
+        width: 100%;
+        /* margin-left: 10%; */
+        margin-bottom: 15%;
+    }
+    .goods div:nth-child(3n+1){
+        margin-left: 0%;
+    }
+}

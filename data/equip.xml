@@ -4,30 +4,36 @@
         <name>Корзина для мячей Mikasa</name>
         <price>800BYN</price>
         <image>equip/mikasa-ball-cart.png</image>
+        <about></about>
     </good>
     <good>
         <name>Корзина для мячей Mikasa</name>
         <price>600BYN</price>
         <image>equip/Mikasa-ball-cart-s.png</image>
+        <about></about>
     </good>
     <good>
         <name>Сеть для мячей Mikasa</name>
         <price>100BYN</price>
         <image>equip/mikasa-ball-net.png</image>
+        <about></about>
     </good>
     <good>
         <name>Волейбольная сеть Mikasa</name>
         <price>150BYN</price>
         <image>equip/mikasa-new.png</image>
+        <about></about>
     </good>
     <good>
         <name>Волейбольная сеть Mikasa</name>
         <price>100BYN</price>
         <image>equip/mikasa-net-1.png</image>
+        <about></about>
     </good>
     <good>
         <name>Флажки линейного судьи Mikasa</name>
         <price>80BYN</price>
         <image>equip/mikasa-flag.png</image>
+        <about></about>
     </good>
 </data>

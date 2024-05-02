@@ -22,7 +22,7 @@ function addItemsToDOM(goods) {
     goods.forEach(good => {
         // console.log(good);
         const goodDiv = document.createElement('div');
-        goodDiv.className = 'good';
+        goodDiv.className = 'good-div';
         goodDiv.innerHTML = `
             <img src="${good.image}">
             <p>${good.name}</p>
@@ -34,6 +34,12 @@ function addItemsToDOM(goods) {
         };
         goodsList.appendChild(goodDiv);
     });
+}
+function loadItemDetails(xmlPath, itemName) {
+    const params = new URLSearchParams(window.location.search);
+    const pathURL = params.get('path');
+    window.location.href = `info.html?itemName=${itemName}&path=${pathURL}`;
+
 }
 function getID() {
     const params = new URLSearchParams(window.location.search);
@@ -55,7 +61,7 @@ function setWay(currentPath) {
     }
     return name;
 }
-function getButton(currentPath){
+function getButton(currentPath) {
     let id;
     if (currentPath === "data/data.xml") {
         id = "wear-button";

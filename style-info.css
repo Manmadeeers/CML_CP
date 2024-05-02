@@ -1,0 +1,65 @@
+/* specified styles for goods info page */
+.information {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    /* border: 1px solid; */
+    margin-top: 5%;
+}
+
+.img-and-price {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 40%;
+    width: 50%;
+    /* border: 1px solid; */
+}
+
+.img-and-price img {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+}
+
+.img-and-price p {
+    flex: 1 1 100%;
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+.img-and-price img {
+    width: 50%;
+}
+
+.good-text {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 40%;
+    /* border: 1px solid; */
+    width: 30%;
+}
+
+.good-text p:first-child {
+    flex: 1 1 100%;
+    width: 100%;
+    font-size: 25pt;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.good-text #about{
+    text-align: justify;
+    /* border: 1px solid; */
+    margin-top: 0;
+    font-size: 15pt;
+}
+.good-text button{
+    background-color:#171A5B;
+    border: none;
+    width: 40%;
+    height: 20%;
+    color: white;
+    cursor: pointer;
+    margin-left: 30%;
+    font-size: 14pt;
+}

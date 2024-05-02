@@ -4,45 +4,54 @@
         <name>Adidas CrazyFlight</name>
         <price>500BYN</price>
         <image>shoe/Crazyflight_Shoes_White_HP3355_HM1.avif</image>
+        <about></about>
     </good>
     <good>
         <name>Adidas Stabil</name>
         <price>500BYN</price>
         <image>shoe/Stabil_Indoor_Shoes_White_ID1137_01_standard.avif</image>
+        <about></about>
     </good>
     <good>
         <name>Nike Zoom Hyperace 2</name>
         <price>550BYN</price>
         <image>shoe/zoom-hyperace-2-womens-volleyball-shoe-KlrjdK.webp</image>
+        <about></about>
     </good>
     <good>
         <name>Nike React Hyperset</name>
         <price>550BYN</price>
         <image>shoe/react-hyperset-indoor-court-shoes-dkQgjQ.webp</image>
+        <about></about>
     </good>
     <good>
         <name>Asics Gel-Rocket 11</name>
         <price>400BYN</price>
         <image>shoe/asics-gelrocket.jpg</image>
+        <about></about>
     </good>
     <good>
         <name>ASICS Netburner FF MT 3</name>
         <price>420BYN</price>
         <image>shoe/asics-netburner.jpg</image>
+        <about></about>
     </good>
     <good>
         <name>Under Armour HOVR Block City</name>
         <price>400BYN</price>
         <image>shoe/underurmor1.jpg</image>
+        <about></about>
     </good>
     <good>
         <name>Mizuno Wave Momentum 2</name>
         <price>390BYN</price>
         <image>shoe/mizuno1.jpg</image>
+        <about></about>
     </good>
     <good>
         <name>Mizuno Wave Lightning Z6</name>
         <price>420BYN</price>
         <image>shoe/mizuno2.jpg</image>
+        <about></about>
     </good>
 </data-shoe>

@@ -8,6 +8,9 @@ function goodlink() {
 function sells(path) {
      window.location.href = `goods.html?path=${path}`;
 }
+function home(){
+     window.location.href = "index.html";
+}
 // end
 
 // opens mobile menu
