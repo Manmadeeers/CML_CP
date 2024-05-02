@@ -3,61 +3,76 @@
     <good1>
         <name>Футболка Mizuno синяя</name>
         <price>70BYN</price>
+        <image>wear/canvas.png</image>
     </good1>
     <good2>
         <name>Лонгслив Mizuno чёрный</name>
         <price>90BYN</price>
+        <image>wear/longslevemizuno.jpg</image>
     </good2>
     <good3>
         <name>Футболка Mizuno чёрная</name>
         <price>70BYN</price>
+        <image>wear/tshirtmizuno.jpg</image>
     </good3>
     <good4>
         <name>Лонгслив Nike серый</name>
         <price>100BYN</price>
+        <image>wear/nikegray.jpeg</image>
     </good4>
     <good5>
         <name> Худи Nike синяя</name>
         <price>120BYN</price>
+        <image>wear/nikehoodie.jpeg</image>
     </good5>
     <good6>
         <name>Худи Nike серая</name>
         <price>120BYN</price>
+        <image>wear/nikehoodiegr.jpg</image>
     </good6>
     <good7>
         <name>Лонгслив Adidas чёрный</name>
         <price>90BYN</price>
+        <image>wear/adidas-black.jpeg</image>
     </good7>
     <good8>
         <name>Худи Adidas синяя</name>
         <price>120BYN</price>
+        <image>wear/adid-hood-blue.jpg</image>
     </good8>
     <good9>
         <name>Футболка Adidas чёрная</name>
         <price>70BYN</price>
+        <image>wear/adidas-tshirt.jpg</image>
     </good9>
     <good10>
         <name>Футболка Asics синяя</name>
         <price>70BYN</price>
+        <image>wear/asics-tshirt.jpg</image>
     </good10>
     <good11>
         <name>Худи Asics чёрная</name>
         <price>120BYN</price>
+        <image>wear/asics-hod-black.jpg</image>
     </good11>
     <good12>
         <name>Лонгслив Asics синий</name>
         <price>90BYN</price>
+        <image>wear/asics-long.jpg</image>
     </good12>
     <good13>
         <name>Носки Asics белые</name>
         <price>20BYN</price>
+        <image>wear/asics-socks.jpg</image>
     </good13>
     <good14>
         <name>Носки Nike белые</name>
         <price>20BYN</price>
+        <image>wear/nike-socks.jpg</image>
     </good14>
     <good15>
         <name>Носки Mizuno белые</name>
         <price>20BYN</price>
+        <image>wear/mizuno-socks.jpg</image>
     </good15>
 </data>
