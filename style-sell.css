@@ -1,20 +1,19 @@
-/* specified styles for wear page */
+menu .shoe{
+    background-color:#F5F5F5;
+    height: 40px;
+    width: 33%;
+    border-radius: 5px;
+    border: 1px solid #171A5B;
+    cursor: pointer;
+    /* color: white; */
+}
 menu .wear{
-    background-color: #171A5B;
+    background-color: #F5F5F5;
     height: 40px;
     width: 33%;
     margin-left: -1.2%;
     border: 1px solid #171A5B;
     border-radius: 5px;
-    cursor: pointer;
-    color: white;
-}
-menu .shoe{
-    background-color: #F5F5F5;
-    height: 40px;
-    width: 33%;
-    border-radius: 5px;
-    border: 1px solid #171A5B;
     cursor: pointer;
 }
 menu .equip{
@@ -36,7 +35,7 @@ menu .equip{
 .goods div{
     /* border: 1px solid; */
     width: 440px;
-    height: 491px;
+    height: 440px;
     margin-right: 5%;
     flex: 0 0 26.5%;
     margin-bottom: 2%;
@@ -62,26 +61,4 @@ menu .equip{
     width: 100%;
     height: 100%;
     border: 1px solid #171A5B;
-}
-.goods figure figcaption{
-    text-align: center;
-}
-@media (max-width:480px){
-    .path{
-        margin-bottom: 5%;
-    }
-    .goods{
-        flex: 1 1 100%;
-        flex-flow: column wrap;
-        border: none;
-    }
-    .goods div{
-        flex: 1 1 100%;
-        width: 100%;
-        /* margin-left: 10%; */
-        margin-bottom: 15%;
-    }
-    .goods div:nth-child(3n+1){
-        margin-left: 0%;
-    }
 }

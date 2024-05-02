@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?xml version="1.0" encoding="UTF-8"?>
 <html lang="en">
 
 <head>
@@ -87,22 +86,22 @@
             <button class="cart"></button>
         </header>
         <menu>
-            <button class="wear" onclick="getID(this.id)">Одежда</button>
-            <button class="shoe" onclick="getID(this.id)">Обувь</button>
-            <button class="equip" onclick="getID(this.id)">Экипировка</button>
+            <button class="wear"id="wear" onclick="sells(`data`)" >Одежда</button>
+            <button class="shoe"  id="shoe" onclick="sells(`shoe`)" >Обувь</button>
+            <button class="equip" id="equip" onclick="sells(`equip`)" >Экипировка</button>
         </menu>
         <div class="equipment-page"></div>
-        <a class="mob-text" onclick="equiplink()">Экипировка</a>
+        <a class="mob-text" onclick="sells(`equip`)">Экипировка</a>
         <div class="wear-page"></div>
-        <a class="mob-text" onclick="wearlink()">Одежда</a>
+        <a class="mob-text" onclick="sells(`data`)">Одежда</a>
         <div class="shoe-page"></div>
-        <a class="mob-text" onclick="shoelink()">Обувь</a>
+        <a class="mob-text" onclick="sells(`shoe`)">Обувь</a>
         <div class="texts">
-            <a onclick="equiplink() ">Экипировка</a>
+            <a onclick="sells(`equip`)">Экипировка</a>
             <img src="pics/right-outlined-arrow-in-circular-button-svgrepo-com.svg">
-            <a id="wear_go" onclick="wearlink()">Одежда</a>
+            <a onclick="sells(`data`)">Одежда</a>
             <img src="pics/right-outlined-arrow-in-circular-button-svgrepo-com.svg">
-            <a onclick="shoelink()">Обувь</a>
+            <a onclick="sells(`shoe`)">Обувь</a>
             <img src="pics/right-outlined-arrow-in-circular-button-svgrepo-com.svg">
         </div>
         <div class="advantages">

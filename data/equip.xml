@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-    <equip1>
+    <good>
         <name>Корзина для мячей Mikasa</name>
         <price>800BYN</price>
-    </equip1>
-    <equip2>
+        <image>equip/mikasa-ball-cart.png</image>
+    </good>
+    <good>
         <name>Корзина для мячей Mikasa</name>
         <price>600BYN</price>
-    </equip2>
-    <equip3>
+        <image>equip/Mikasa-ball-cart-s.png</image>
+    </good>
+    <good>
         <name>Сеть для мячей Mikasa</name>
         <price>100BYN</price>
-    </equip3>
-    <equip4>
+        <image>equip/mikasa-ball-net.png</image>
+    </good>
+    <good>
         <name>Волейбольная сеть Mikasa</name>
         <price>150BYN</price>
-    </equip4>
-    <equip5>
+        <image>equip/mikasa-new.png</image>
+    </good>
+    <good>
         <name>Волейбольная сеть Mikasa</name>
         <price>100BYN</price>
-    </equip5>
-    <equip6>
+        <image>equip/mikasa-net-1.png</image>
+    </good>
+    <good>
         <name>Флажки линейного судьи Mikasa</name>
         <price>80BYN</price>
-    </equip6>
+        <image>equip/mikasa-flag.png</image>
+    </good>
 </data>

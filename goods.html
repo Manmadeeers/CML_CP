@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="style-sell.css">
     <title>Voleyshop.com</title>
 </head>
 
@@ -15,9 +16,9 @@
             <nav class="mobile-menu" id="mobile-menu">
                 <button class="close-menu" id="close-menu"></button>
                 <ul>
-                    <li>Экипировка</li>
-                    <li>Одежда</li>
-                    <li>Обувь</li>
+                    <li onclick="sells(`equip`)">Экипировка</li>
+                    <li onclick="sells(`data`)">Одежда</li>
+                    <li onclick="">Обувь</li>
                     <li>Регистрация</li>
                     <li>Контакты</li>
                 </ul>
@@ -87,10 +88,13 @@
             <a href="index.html">Главная</a> > <a id="good-name"></a>
         </div>
         <menu>
-            <button class="wear">Одежда</button>
-            <button class="shoe" onclick="shoelink()">Обувь</button>
-            <button class="equip" onclick="equiplink() ">Экипировка</button>
+            <button class="wear" onclick="sells(`data`)">Одежда</button>
+            <button class="shoe" onclick="">Обувь</button>
+            <button class="equip" onclick="">Экипировка</button>
         </menu>
+        <div class="goods" id="goods">
+
+        </div>
         <footer>
             <div class="left-foot">
                 <svg id="_Слой_1" data-name=" Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 553.04 94.46">
@@ -178,5 +182,6 @@
         </footer>
     </div>
 </body>
-
+<script src="display-data.js"></script>
+<script src="buttons.js"></script>
 </html>
