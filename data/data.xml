@@ -49,66 +49,82 @@
         <name>Худи Nike серая</name>
         <price>120BYN</price>
         <image>wear/nikehoodiegr.jpg</image>
-        <about></about>
+        <about>Худи имеет противоветренную теплую подкладку , которая в то же время не даёт 
+            телу перегреваться в более жаркую погоду. Выполнена из качественных и приятных текстурно материаллов,
+            а также хорошо переносит большое количество стирок.</about>
     </good>
     <good>
         <name>Лонгслив Adidas чёрный</name>
         <price>90BYN</price>
         <image>wear/adidas-black.jpeg</image>
-        <about></about>
+        <about>Лонгслив имеет приятную тектсуру и выполнен из качественных, стойких материалов.
+            Товар не потеряет достойный вид после большого количества стирок. В наличии имеются любые
+            размеры</about>
     </good>
     <good>
         <name>Худи Adidas синяя</name>
         <price>120BYN</price>
         <image>wear/adid-hood-blue.jpg</image>
-        <about></about>
+        <about>Худи имеет противоветренную теплую подкладку , которая в то же время не даёт 
+            телу перегреваться в более жаркую погоду. Выполнена из качественных и приятных текстурно материаллов,
+            а также хорошо переносит большое количество стирок.</about>
     </good>
     <good>
         <name>Футболка Adidas чёрная</name>
         <price>70BYN</price>
         <image>wear/adidas-tshirt.jpg</image>
-        <about></about>
+        <about>Фтуболка сшита из приятного материала(хлопок+полиэстер).
+            Имеет приятную текстуру и легко стирается.Футболка не теряет цвет и текстуру
+            после большого количества стирок. В наличии имеются любые 
+            размеры.</about>
     </good>
     <good>
         <name>Футболка Asics синяя</name>
         <price>70BYN</price>
         <image>wear/asics-tshirt.jpg</image>
-        <about></about>
+        <about>Фтуболка сшита из приятного материала(хлопок+полиэстер).
+            Имеет приятную текстуру и легко стирается.Футболка не теряет цвет и текстуру
+            после большого количества стирок. В наличии имеются любые 
+            размеры.</about>
     </good>
     <good>
         <name>Худи Asics чёрная</name>
         <price>120BYN</price>
         <image>wear/asics-hod-black.jpg</image>
-        <about></about>
+        <about>Худи имеет противоветренную теплую подкладку , которая в то же время не даёт 
+            телу перегреваться в более жаркую погоду. Выполнена из качественных и приятных текстурно материаллов,
+            а также хорошо переносит большое количество стирок.</about>
     </good>
     <good>
         <name>Лонгслив Asics синий</name>
         <price>90BYN</price>
         <image>wear/asics-long.jpg</image>
-        <about></about>
+        <about>Лонгслив имеет приятную тектсуру и выполнен из качественных, стойких материалов.
+            Товар не потеряет достойный вид после большого количества стирок. В наличии имеются любые
+            размеры</about>
     </good>
     <good>
         <name>Носки Asics белые</name>
         <price>20BYN</price>
         <image>wear/asics-socks.jpg</image>
-        <about></about>
+        <about>Носки из лёгкой качественной ткани любого размера</about>
     </good>
     <good>
         <name>Носки Nike белые</name>
         <price>20BYN</price>
         <image>wear/nike-socks.jpg</image>
-        <about></about>
+        <about>Носки из лёгкой качественной ткани любого размера</about>
     </good>
     <good>
         <name>Носки Mizuno белые</name>
         <price>20BYN</price>
         <image>wear/mizuno-socks.jpg</image>
-        <about></about>
+        <about>Носки из лёгкой качественной ткани любого размера</about>
     </good>
     <good>
         <name>Носки Adidas белые</name>
         <price>20BYN</price>
         <image>wear/Copa_Zone_Cushion_5_Over-the-Calf_Socks_White_IR0963_03_standard.avif</image>
-        <about></about>
+        <about>Носки из лёгкой качественной ткани любого размера</about>
     </good>
 </data>
