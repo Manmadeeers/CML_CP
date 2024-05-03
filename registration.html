@@ -14,10 +14,10 @@
         <nav class="mobile-menu" id="mobile-menu">
             <button class="close-menu" id="close-menu"></button>
             <ul>
-                <li>Экипировка</li>
+                <li onclick="sells(`equip`)">Экипировка</li>
                 <li onclick="sells(`data`)">Одежда</li>
-                <li>Обувь</li>
-                <li>Регистрация</li>
+                <li onclick="sells(`shoe`)">Обувь</li>
+                <li onclick="regbutton()">Регистрация</li>
                 <li>Контакты</li>
             </ul>
         </nav>
@@ -79,8 +79,8 @@
                 <input type="search" placeholder="Search...">
             </form>
         </div>
-        <button class="profile"></button>
-        <button class="cart"></button>
+        <button class="profile" onclick="regbutton()"></button>
+        <button class="cart" onclick="goodlink()"></button>
     </header>
     <div class="path">
         <a href="index.html">Главная</a>  >  <a href="registration.html">Регистрация</a>

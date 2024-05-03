@@ -46,7 +46,7 @@ menu button:hover{
     margin-top: 2%;
     cursor: pointer;
 }
-.goods div:nth-child(2n+1){
+.goods div:nth-child(3n+1){
     margin-left: 5%;
 }
 .goods div p:nth-child(2){
@@ -81,6 +81,9 @@ menu button:hover{
         width: 100%;
         margin-bottom: 15%;
     }
+    .goods div:nth-child(3n+1){
+        margin-left: 0;
+    }
 }
 /* for tablets */
 @media (min-width:481px) and (max-width:1000px){
@@ -91,6 +94,9 @@ menu button:hover{
         flex: 1 1 30%;
         width: 30%;
         margin-bottom: 10%;
+    }
+    .goods div:nth-child(2n+1){
+        margin-left: 5%;
     }
     /* .goods div:nth-child(3n+1){
         margin-left: 0%;
