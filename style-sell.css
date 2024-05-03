@@ -46,7 +46,7 @@ menu button:hover{
     margin-top: 2%;
     cursor: pointer;
 }
-.goods div:nth-child(3n+1){
+.goods div:nth-child(2n+1){
     margin-left: 5%;
 }
 .goods div p:nth-child(2){
@@ -66,6 +66,7 @@ menu button:hover{
     height: 100%;
     border: 1px solid #171A5B;
 }
+/* for mobiles */
 @media (max-width:480px){
     .path{
         margin-bottom: 5%;
@@ -78,10 +79,20 @@ menu button:hover{
     .goods div{
         flex: 1 1 100%;
         width: 100%;
-        /* margin-left: 10%; */
         margin-bottom: 15%;
     }
-    .goods div:nth-child(3n+1){
-        margin-left: 0%;
+}
+/* for tablets */
+@media (min-width:481px) and (max-width:1000px){
+    .goods{
+        flex-flow: row wrap;
     }
+    .goods div{
+        flex: 1 1 30%;
+        width: 30%;
+        margin-bottom: 10%;
+    }
+    /* .goods div:nth-child(3n+1){
+        margin-left: 0%;
+    } */
 }

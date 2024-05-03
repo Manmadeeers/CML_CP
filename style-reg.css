@@ -100,3 +100,34 @@
         visibility: hidden;
     }
 }
+/* for tablets */
+@media (min-width:481px) and (max-width:1000px){
+    .registration{
+        flex: 1 1 100%;
+        width: 100%;
+        /* border: 1px solid; */
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .registration form{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    .registration label{
+        display: flex;
+        flex: 1 1 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .registration form label #caption{
+        text-align: center;
+    }
+    footer .left-foot button{
+        visibility: hidden;
+    }
+
+}

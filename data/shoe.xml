@@ -22,7 +22,13 @@
         <name>Nike React Hyperset</name>
         <price>550BYN</price>
         <image>shoe/react-hyperset-indoor-court-shoes-dkQgjQ.webp</image>
-        <about></about>
+        <about>Кроссовки от всемирно изветсного бренда, которые рекомендуют
+            большое количество профессиональных спортсменова-волейболистов из
+            разных стран мира. Кроссовки этой модели хорошо фиксируют голиностоп 
+            , что предотвращает большое количесвто травм. Специальная подошва предотвращает 
+            любое скольжение по поверхности, а специальне материалы в ткани кроссовка
+            не позволяют ногам перегреваться.
+        </about>
     </good>
     <good>
         <name>Asics Gel-Rocket 11</name>
@@ -53,5 +59,11 @@
         <price>420BYN</price>
         <image>shoe/mizuno2.jpg</image>
         <about></about>
+    </good>
+    <good>
+        <name>Nike HyperSpeed Court</name>
+        <price>340BYN</price>
+        <image>shoe/hyperspeed-court-volleyball-shoes-vJLCz9.webp</image>
+        <about> </about>
     </good>
 </data-shoe>

@@ -94,4 +94,10 @@
         <image>wear/mizuno-socks.jpg</image>
         <about></about>
     </good>
+    <good>
+        <name>Носки Adidas белые</name>
+        <price>20BYN</price>
+        <image>wear/Copa_Zone_Cushion_5_Over-the-Calf_Socks_White_IR0963_03_standard.avif</image>
+        <about></about>
+    </good>
 </data>
