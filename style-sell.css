@@ -98,7 +98,4 @@ menu button:hover{
     .goods div:nth-child(2n+1){
         margin-left: 5%;
     }
-    /* .goods div:nth-child(3n+1){
-        margin-left: 0%;
-    } */
 }
