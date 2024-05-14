@@ -21,3 +21,6 @@ document.getElementById('close-menu').addEventListener('click',function(){
      document.getElementById('mobile-menu').classList.remove('open');
 })
 // end
+// document.addEventListener('DOMContentLoaded', function(){
+//      alert("Welcome to Voleyshop.com! The best online store of voleyball equipment");
+// })
