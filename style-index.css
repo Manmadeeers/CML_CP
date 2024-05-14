@@ -211,11 +211,18 @@ menu button:hover{
     .advantages .delivery{
         flex: 1 1 100%;
     }
+    .delivery img{
+        margin-left: -5%;
+    }
     .advantages .garant{
         flex: 1 1 100%;
     }
     .advantages .victory{
         flex: 1 1 100%;
+    }
+    .why svg{
+        flex:0 0 50%;
+        width: 50%;
     }
 }
 /* styles for tablets */
@@ -246,5 +253,9 @@ menu button:hover{
     }
     .advantages .delivery{
         margin-top: 3%;
+    }
+    .why svg{
+        flex:0 0 50%;
+        width: 50%;
     }
 }
