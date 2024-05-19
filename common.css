@@ -36,12 +36,10 @@ header {
 header svg {
 
     height: 50px;
-    /* margin-left: -40%; */
     margin-right: -20%;
-    margin-left: -4%;
+    /* margin-left: -4%; */
     margin-top: 0.2%;
     margin-bottom: 1%;
-    /* border: 1px solid; */
 }
 
 .search {
@@ -95,13 +93,28 @@ header .cart {
     border: none;
     width: 45px;
     height: 45px;
-    margin-left: 10%;
+    margin-left: 6%;
     background-color: white;
     margin-top: 0.6%;
     background-image: url(pics/cart-large-minimalistic-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     cursor: pointer;
+}
+header .theme{
+    width: 45px;
+    height: 45px;
+    margin-top: 0.6%;
+    margin-left: 4%;
+    cursor: pointer;
+    background-image: url(pics/moon-svgrepo-com\(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    border: none;
+}
+header .theme:hover{
+    border: #171A5B 1px solid;
 }
 
 header .cart:hover {
