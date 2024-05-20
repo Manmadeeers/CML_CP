@@ -8,7 +8,7 @@ function goodlink() {
 function sells(path) {
      window.location.href = `goods.html?path=${path}`;
 }
-function home(){
+function home() {
      window.location.href = "index.html";
 }
 // end
@@ -17,10 +17,7 @@ function home(){
 document.getElementById('menu-button').addEventListener('click', function () {
      document.getElementById('mobile-menu').classList.toggle('open');
 });
-document.getElementById('close-menu').addEventListener('click',function(){
+document.getElementById('close-menu').addEventListener('click', function () {
      document.getElementById('mobile-menu').classList.remove('open');
-})
+});
 // end
-// document.addEventListener('DOMContentLoaded', function(){
-//      alert("Welcome to Voleyshop.com! The best online store of voleyball equipment");
-// })

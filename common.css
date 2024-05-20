@@ -8,6 +8,14 @@ body {
     transition: 0.3s ease-out;
     font-size:18px
 }
+body.dark-theme{
+    background-color: #040511;
+    color: white;
+}
+.body.light-theme{
+    background-color: white;
+    color: #171A5B;
+}
 
 .container {
     display: flex;
@@ -38,7 +46,7 @@ header svg {
 
     height: 50px;
     margin-right: -20%;
-    /* margin-left: -4%; */
+    margin-left: -4%;
     margin-top: 0.2%;
     margin-bottom: 1%;
 }
