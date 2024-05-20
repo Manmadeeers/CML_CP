@@ -220,6 +220,14 @@ menu button:hover{
     .advantages .victory{
         flex: 1 1 100%;
     }
+    .victory img{
+        /* border: 1px solid; */
+        width: 21%;
+    }
+    /* .victory p{
+        margin-left: 0;
+        border: 1px solid;
+    } */
     .why svg{
         flex:0 0 50%;
         width: 50%;
